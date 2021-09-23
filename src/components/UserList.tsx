@@ -3,12 +3,11 @@ import { useState } from "react";
 
 
 
-export function UserList(): JSX.Element {
-    const[users, setUsers] = useState<Task[]>([
-        {id: '1', text: "Avocado"}
-    ]);
-    function handleChange(items: Task[]):void{
-        console.log(items);
+export function UserList({users, setUsers}: {users: Task[], setUsers:(t: Task[])=>void}): JSX.Element {
+    
+    function handleChange(newUsers: Task[]):void{
+        setUsers(newUsers);
+        
     
     }
     return <EditableDndList items={users} onChange={handleChange} />;
