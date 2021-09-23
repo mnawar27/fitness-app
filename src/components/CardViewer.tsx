@@ -1,4 +1,9 @@
 import {Col} from 'react-bootstrap';
-export function CardViewer(): JSX.Element{
-    return <Col>Card Viewer </Col>
+import { Card } from '../interfaces/card';
+
+export function CardViewer({card}: {card:Card}): JSX.Element{
+    return <Col>
+    <h1> Card Viewer </h1>
+    <div>Current card: {card.Prompt}</div>
+     </Col>
 }
