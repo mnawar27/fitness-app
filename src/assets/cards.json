@@ -1,0 +1,92 @@
+[
+    {
+      "ID": 1,
+      "Kind": "Easy",
+      "Promt": "Which drink provides the most complete nourishment?\n1% milk\norange juice\nwater\napple juice",
+      "Answer": "1% Milk"
+    },
+    {
+      "ID": 2,
+      "Kind": "Easy",
+      "Promt": "Which one of these exercises is effective for weight loss?\nCardio\nYoga\nStrength exercises\nBalance exercis",
+      "Answer": "Cardio"
+    },
+    {
+      "ID": 3,
+      "Kind": "Easy",
+      "Promt": "How much exercise do experts recommend for teens?",
+      "Answer": "60 minutes each day"
+    },
+    {
+      "ID": 4,
+      "Kind": "Easy",
+      "Promt": "Agonist muscles are responsible for relaxing. true or false?",
+      "Answer": "FALSE"
+    },
+    {
+      "ID": 5,
+      "Kind": "Easy",
+      "Promt": "Asana is a yoga posture. true or false?",
+      "Answer": "TRUE"
+    },
+    {
+      "ID": 6,
+      "Kind": "Medium",
+      "Promt": "How do you call the layer of fat around your waistline?",
+      "Answer": "Love handles"
+    },
+    {
+      "ID": 7,
+      "Kind": "Medium",
+      "Promt": "Which piece of equipment will be useless for the basic squat?\nDumbbells\nBar\nAnkle weights\nFoam roller",
+      "Answer": "Ankle Weights"
+    },
+    {
+      "ID": 8,
+      "Kind": "Medium",
+      "Promt": "When you exercise, your body produces this chemical, which \ncan make you feel happier and more peaceful:",
+      "Answer": "endorphins"
+    },
+    {
+      "ID": 9,
+      "Kind": "Medium",
+      "Promt": "True or false: You have to lift weights to build strong muscles.",
+      "Answer": "FALSE"
+    },
+    {
+      "ID": 10,
+      "Kind": "Medium",
+      "Promt": "The most common source of low back pain is a problem with the:",
+      "Answer": "Muscles"
+    },
+    {
+      "ID": 11,
+      "Kind": "Hard",
+      "Promt": "What does HIIT stand for?",
+      "Answer": "High-intensity interval training"
+    },
+    {
+      "ID": 12,
+      "Kind": "Hard",
+      "Promt": "The exercise called “Hundred” is part of:",
+      "Answer": "Pilates"
+    },
+    {
+      "ID": 13,
+      "Kind": "Hard",
+      "Promt": "The process by which we lose muscle mass as we age is known as:",
+      "Answer": "Sarcopenia"
+    },
+    {
+      "ID": 14,
+      "Kind": "Hard",
+      "Promt": "How many minutes of moderate-intensity physical activity per week\ndoes the Center for Disease (CDC) recommend?",
+      "Answer": "150 minutes"
+    },
+    {
+      "ID": 15,
+      "Kind": "Hard",
+      "Promt": "How many sets and repetitions are recommended when \nFOCUSING on muscular strength?",
+      "Answer": "3 sets of 4-6 repetitions"
+    }
+  ]
