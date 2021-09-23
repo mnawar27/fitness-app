@@ -1,3 +1,4 @@
+import {Col} from 'react-bootstrap';
 export function CardViewer(): JSX.Element{
-    return <div>Card Viewer </div>
+    return <Col>Card Viewer </Col>
 }
