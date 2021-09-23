@@ -1,10 +1,18 @@
-import {Col} from 'react-bootstrap';
+import {Col, Card as BootstrapCard} from 'react-bootstrap';
 import { Card } from '../interfaces/card';
 
 export function CardViewer({card}: {card:Card}): JSX.Element{
     return <Col>
-    <h1> Card Viewer </h1>
-    <div>Quiz: {card.Prompt}</div>
-    <div>Correct Answer: {card.Answer}</div>
+    <BootstrapCard>
+        <BootstrapCard.Body>
+            <BootstrapCard.Title>Card Viewer</BootstrapCard.Title>
+            <BootstrapCard.Text>
+             <strong>Quiz</strong>: {card.Prompt}
+            </BootstrapCard.Text>
+            <BootstrapCard.Text>
+             <strong>Correct Answer</strong>: {card.Answer}
+            </BootstrapCard.Text>
+        </BootstrapCard.Body>
+        </BootstrapCard>
      </Col>
 }
